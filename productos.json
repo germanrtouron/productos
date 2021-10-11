@@ -1,0 +1,87 @@
+[
+    {
+        "nombre": "Adidas Superstar",
+        "imagen": "../img/1.jpg",
+        "precio": 15500
+    },
+    {
+        "nombre": "Nike Airmax 270",
+        "imagen": "../img/2.jpg",
+        "precio": 18000
+    },
+    {
+        "nombre": "Puma Flyer Runner",
+        "imagen": "../img/3.jpg",
+        "precio": 20350
+    },
+    {
+        "nombre": "Nike Jordan Max 200",
+        "imagen": "../img/4.jpg",
+        "precio": 22200
+    },
+    {
+        "nombre": "Pantalon Adidas AdiColor",
+        "imagen": "../img/pantAdicolor.jpg",
+        "precio": 10000
+    },
+    {
+        "nombre": "Pantalon Adidas Tiro",
+        "imagen": "../img/pantTiro.jpg",
+        "precio": 7000
+    },
+    {
+        "nombre": "Pantalon Puma Intl Game",
+        "imagen": "../img/pantIntlGame.jpg",
+        "precio": 4500
+    },
+    {
+        "nombre": "Pantalon Nike SportsWear",
+        "imagen": "../img/pantSportswear.jpg",
+        "precio": 9000
+    },
+    {
+        "nombre": "Remera Adidas Aero Ready",
+        "imagen": "../img/remAeroready.jpg",
+        "precio": 3200
+    },
+    {
+        "nombre": "Remera Adidas M Fi Camo Tee",
+        "imagen": "../img/remMfi.jpg",
+        "precio": 5500
+    },
+    {
+        "nombre": "Remera Nike Futura",
+        "imagen": "../img/remFutura.jpg",
+        "precio": 5000
+    },
+    {
+        "nombre": "Remera Puma Avenir",
+        "imagen": "../img/remAvenir.jpg",
+        "precio": 3800
+    },
+    {
+        "nombre": "Remera Fila Storm",
+        "imagen": "../img/remStorm.jpg",
+        "precio": 7000
+    },
+    {
+        "nombre": "Pelota Adidas Argentina",
+        "imagen": "../img/pelArg.jpg",
+        "precio": 4500
+    },
+    {
+        "nombre": "Espinilleras Adidas Predator 20",
+        "imagen": "../img/espPredator.jpg",
+        "precio": 4000
+    },
+    {
+        "nombre": "Guantes Adidas Predator",
+        "imagen": "../img/guanPredator.jpg",
+        "precio": 6000
+    },
+    {
+        "nombre": "Bolso Adidas Tiro",
+        "imagen": "../img/bolTiro.jpg",
+        "precio": 8500
+    }
+]
