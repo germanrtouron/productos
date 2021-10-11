@@ -70,17 +70,18 @@ btnComprarCarrito.onclick = () => {
 //---------------------------------------------------------
 //-----AGREGAR AL CARRITO
 function btnClickAgregar(x) {
-    console.log(x.nombre);
-    sumarPrecio();
+    console.log(misDatos[x]);
+    sumarPrecio(x);
     carrito.push();
 };
 //-----ZAPATILLAS
+
 btnAdidasSuperstar.onclick = () => {
-    carrito.push(adidasSuperstar);
-    sumarPrecio(adidasSuperstar.precio);
-    carritoImg(adidasSuperstar.imagen);
-    carritoNombre(adidasSuperstar.nombre);
-    carritoPrecio(adidasSuperstar.precio);
+    carrito.push();
+    sumarPrecio();
+    carritoImg();
+    carritoNombre();
+    carritoPrecio();
     resultadoTotalCarritoElement.innerHTML = "$" + totalSuma;
     carritoVacio.style.display = "none";
     totalCarritoElement.style.display = "flex";
@@ -88,7 +89,7 @@ btnAdidasSuperstar.onclick = () => {
     totalCarritoElement.style.justifyContent = "space-evenly";
     btnVaciarCarrito.style.display = "block";
     btnComprarCarrito.style.display = "block";
-}
+}/*
 btnNikeAirmax270.onclick = () => {
     carrito.push(nikeAirmax270);
     sumarPrecio(nikeAirmax270.precio);
@@ -315,4 +316,4 @@ btnBolsoAdidasTiro.onclick = () => {
     totalCarritoElement.style.justifyContent = "space-evenly";
     btnVaciarCarrito.style.display = "block";
     btnComprarCarrito.style.display = "block";
-}
+}*/

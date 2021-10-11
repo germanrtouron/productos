@@ -6,7 +6,7 @@ btnVaciarCarrito = document.getElementById("vaciarCarrito");
 //-----BOTON COMPRAR CARRITO
 btnComprarCarrito = document.getElementById("comprarCarrito");
 //-----BOTONES ZAPATILLAS
-btnAdidasSuperstar = document.getElementById("btnAdidasSuperstar");
+btnAdidasSuperstar = document.getElementById("btn0");
 btnNikeAirmax270 = document.getElementById("btnNikeAirmax270");
 btnPumaFlyerRunner = document.getElementById("btnPumaFlyerRunner");
 btnNikeJordanMax200 = document.getElementById("btnNikeJordanMax200");

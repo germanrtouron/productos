@@ -1,8 +1,10 @@
-const PROJSON = "https://germanrtouron.github.io/productos/productos.json"
+const PROJSON = "https://germanrtouron.github.io/productos/productos.json";
 //-----
+let misDatos = [];
+
 $.getJSON(PROJSON, function (respuesta, estado) {
     if(estado === "success"){
-      let misDatos = respuesta;
+      misDatos = respuesta;
       for (const dato of misDatos) {
         if (dato.tipo == "zapatillas") {
         $("#productosContent").append(
@@ -18,7 +20,7 @@ $.getJSON(PROJSON, function (respuesta, estado) {
                   <li>Código: ${dato.descripcion["articulo"]}</li>
                 </ul>
                 <h5>Precio de lista: $${dato.precio}</h5>
-                <button type="button" class="btn btn-primary" id="btn${dato.id}">Agregar al carrito</button>
+                <button type="button" class="btn btn-primary" onclick=btnClickAgregar(${dato.id})>Agregar al carrito</button>
             </div>`) }
         else if (dato.tipo == "pantalon") {
           $("#productosContent").append(
