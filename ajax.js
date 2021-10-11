@@ -18,7 +18,7 @@ $.getJSON(PROJSON, function (respuesta, estado) {
                   <li>Código: ${dato.descripcion["articulo"]}</li>
                 </ul>
                 <h5>Precio de lista: $${dato.precio}</h5>
-                <button type="button" class="btn btn-primary" onclick=btnClickAgregar(${dato.nombre}, ${dato.precio})>Agregar al carrito</button>
+                <button type="button" class="btn btn-primary" id="btn${dato.id}">Agregar al carrito</button>
             </div>`) }
         else if (dato.tipo == "pantalon") {
           $("#productosContent").append(
@@ -34,7 +34,7 @@ $.getJSON(PROJSON, function (respuesta, estado) {
                   <li>Código: ${dato.descripcion["articulo"]}</li>
                 </ul>
                 <h5>Precio de lista: $${dato.precio}</h5>
-                <button type="button" class="btn btn-primary" id="btnAdidasSuperstar">Agregar al carrito</button>
+                <button type="button" class="btn btn-primary" id="btn${dato.id}">Agregar al carrito</button>
             </div>`) }
         else if (dato.tipo == "remera") {
           $("#productosContent").append(
@@ -50,7 +50,7 @@ $.getJSON(PROJSON, function (respuesta, estado) {
                   <li>Código: ${dato.descripcion["articulo"]}</li>
                 </ul>
                 <h5>Precio de lista: $${dato.precio}</h5>
-                <button type="button" class="btn btn-primary" id="btnAdidasSuperstar">Agregar al carrito</button>
+                <button type="button" class="btn btn-primary" id="btn${dato.id}">Agregar al carrito</button>
             </div>`) }
         else if (dato.tipo == "accesorio") {
           $("#productosContent").append(
@@ -66,7 +66,7 @@ $.getJSON(PROJSON, function (respuesta, estado) {
                   <li>Código: ${dato.descripcion["articulo"]}</li>
                 </ul>
                 <h5>Precio de lista: $${dato.precio}</h5>
-                <button type="button" class="btn btn-primary" id="btnAdidasSuperstar">Agregar al carrito</button>
+                <button type="button" class="btn btn-primary" id="btn${dato.id}">Agregar al carrito</button>
             </div>`) 
         }
       }  

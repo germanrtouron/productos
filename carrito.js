@@ -69,8 +69,8 @@ btnComprarCarrito.onclick = () => {
 //------------------COMPRAR CARRITO------------------------
 //---------------------------------------------------------
 //-----AGREGAR AL CARRITO
-function btnClickAgregar() {
-    console.log();
+function btnClickAgregar(x) {
+    console.log(x.nombre);
     sumarPrecio();
     carrito.push();
 };
