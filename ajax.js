@@ -1,17 +1,15 @@
-const PROJSON = "https://jsonplaceholder.typicode.com/posts"
+const PROJSON = "https://germanrtouron.github.io/productos/productos.json"
 
-$("body").prepend('<button id="btn1">JSON</button>');
-
-$("#btn1").click(() => { 
 $.getJSON(PROJSON, function (respuesta, estado) {
     if(estado === "success"){
       let misDatos = respuesta;
       for (const dato of misDatos) {
-        $("body").prepend(`<div>
-                                <h3>${dato.id}</h3>
-                                <p> ${dato.title}</p>
+        $("#productosContent").append(`<div class="tarjetaProducto col">
+                                <img src="${dato.imagen}"></img>
+                                <h4>${dato.nombre}</h4>
+                                <h5>Precio de lista: $ ${dato.precio}</h5>
+                                <button type="button" class="btn btn-primary" id="btnAdidasSuperstar">Agregar al carrito</button>
                             </div>`)
       }  
     }
     });
-});

@@ -2,7 +2,8 @@
     {
         "nombre": "Adidas Superstar",
         "imagen": "../img/1.jpg",
-        "precio": 15500
+        "precio": 15500,
+        "desc" : "Horma clásica, Exterior de malla, Suela duradera, Color: Blanco y negro, Talles: 38/44, Articulo: NZ120"
     },
     {
         "nombre": "Nike Airmax 270",
