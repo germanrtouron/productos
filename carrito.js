@@ -69,6 +69,11 @@ btnComprarCarrito.onclick = () => {
 //------------------COMPRAR CARRITO------------------------
 //---------------------------------------------------------
 //-----AGREGAR AL CARRITO
+function btnClickAgregar() {
+    console.log();
+    sumarPrecio();
+    carrito.push();
+};
 //-----ZAPATILLAS
 btnAdidasSuperstar.onclick = () => {
     carrito.push(adidasSuperstar);

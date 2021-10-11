@@ -1,5 +1,6 @@
 [
     {
+        "id": 0,
         "nombre": "Adidas Superstar",
         "imagen": "../img/1.jpg",
         "tipo": "zapatillas",
